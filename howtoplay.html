@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>How to Play</title>
+    <style>
+      body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #000;
+        color: white;
+        font-family: "Press Start 2P", cursive;
+      }
+      .container {
+        text-align: center;
+      }
+      .btn {
+        display: block;
+        margin: 10px auto;
+        padding: 10px 20px;
+        font-size: 18px;
+        cursor: pointer;
+        background-color: #444;
+        border: none;
+        color: white;
+        transition: background-color 0.3s;
+      }
+      .btn:hover {
+        background-color: #666;
+      }
+    </style>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>How to Play</h1>
+      <p>
+        Collect falling pixels by clicking or tapping on them. Avoid circles as
+        they reduce your score.
+      </p>
+      <p>
+        Collect stars to freeze all pixels for 5 seconds and score more points.
+      </p>
+      <button class="btn" onclick="window.location.href='index.html'">
+        Back to Home
+      </button>
+    </div>
+  </body>
+</html>

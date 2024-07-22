@@ -1,0 +1,13 @@
+{
+  "name": "pixelhunt",
+  "version": "1.0.0",
+  "description": "PixelHunt is a fun, interactive game where players collect falling pixels. Avoid circles and collect stars to freeze the game for extra points!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "python -m http.server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

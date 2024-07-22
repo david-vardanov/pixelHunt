@@ -1,0 +1,36 @@
+# Node.js
+node_modules/
+npm-debug.log*
+
+# Logs
+logs/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# macOS
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Local server
+/.server
+
+# Build
+dist/
+build/
+
+# Other
+*.bak
+*.tmp
+*.temp
