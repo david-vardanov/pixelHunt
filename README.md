@@ -25,8 +25,8 @@ PixelHunt is a fun, interactive game where players collect falling pixels. Avoid
 2. **Install dependencies:**
 
    ```sh
+   npm init -y
    npm install
-   npm install http-server --save-dev
    ```
 
 ### Running the Game
