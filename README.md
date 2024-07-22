@@ -18,7 +18,7 @@ PixelHunt is a fun, interactive game where players collect falling pixels. Avoid
 1. **Clone the repository:**
 
    ```sh
-   git clone https://github.com/yourusername/pixelhunt.git
+   git clone https://github.com/david-vardanov/pixelHunt.git
    cd pixelhunt
    ```
 
