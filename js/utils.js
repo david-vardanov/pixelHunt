@@ -8,7 +8,7 @@ export function getRandomColor() {
 }
 
 export function spawnPixel(canvasWidth, canvasHeight, Pixel) {
-  const size = Math.floor(Math.random() * 25) + 8; // Size between 8 and 32 pixels
+  const size = Math.floor(Math.random() * 25) + 16; // Size between 8 and 32 pixels
   const x = Math.random() * (canvasWidth - size);
   const y = -size;
   const color = getRandomColor();

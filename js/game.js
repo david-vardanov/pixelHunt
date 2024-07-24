@@ -51,11 +51,15 @@ canvas.addEventListener("click", (e) => {
       clickY <= pixel.y + pixel.size * 1.5
     ) {
       if (pixel.isCircle) {
-        score -= 10;
-        createAnimation("-10", pixel.x, pixel.y);
-        blowEffects.push(
-          ...createBlowEffect(ctx, pixel.x, pixel.y, pixel.color)
-        );
+        if (score > 10) {
+          score -= 10;
+          createAnimation("-10", pixel.x, pixel.y);
+          blowEffects.push(
+            ...createBlowEffect(ctx, pixel.x, pixel.y, pixel.color)
+          );
+        } else {
+          score = 0;
+        }
       } else if (pixel.isStar) {
         gameTimer.freeze(5000);
         createAnimation("Freeze!", pixel.x, pixel.y);
